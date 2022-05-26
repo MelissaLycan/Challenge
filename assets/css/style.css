@@ -34,6 +34,18 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+}
+li {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
 p {
     font-size: 16px;
 }
